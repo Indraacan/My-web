@@ -1,0 +1,66 @@
+/* .img-s{
+    background-image: url('./asset/foto.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.text {
+    position:absolute;
+    margin-top: -450px;
+    margin-left: 400px;
+}
+.sentence{
+    position:absolute;
+    margin-top: -370px;
+    margin-left: 400px;
+    margin-right: 50px;
+}
+.foto{
+    position:absolute;
+    margin-top: -130px;
+    margin-left: 500px;
+    margin-right: 50px;
+}
+.spasi{
+    margin-right: 30px;
+    border-radius: 100px;
+}
+.card {
+    text-align: center;
+    position:absolute;
+    margin-top: -550px;
+
+  }
+  
+  .container-c {
+    padding: 2px 16px;
+  }
+.image-1{
+    position: absolute;
+    width: 150px;
+    border-radius: 200px;
+    margin-top: -450px;
+    margin-left: 200px;
+    margin-right: 50px;
+} */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Montserrat:wght@300&display=swap");
+
+.bg {
+  background-image: url(./asset/earth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.display-5 {
+  font-family: "EB Garamond ", serif;
+}
+
+.lead {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.spasi {
+  width: 6rem;
+}
