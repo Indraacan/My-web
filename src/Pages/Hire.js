@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, ListGroup, Form, Button } from "react-bootstrap";
-import Cv from "../Pages/asset/newCV.png";
+import Cv from "../Pages/asset/CV1.jpg";
 
 class Contact extends Component {
   render() {
@@ -40,17 +40,20 @@ class Contact extends Component {
 
             <Col>
               <h2 className="contact-2 m-4">Suggestion</h2>
-              <Form>
+              <Form 
+              action="https://formspree.io/mdowebpe"
+              method="POST"
+              >
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Control type="text" placeholder="Name" />
+                  <Form.Control type="text" placeholder="Name" name="name" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Control type="email" placeholder="Email" />
+                  <Form.Control type="email" placeholder="Email" name="_replyto" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Control type="email" placeholder="Subject" />
+                  <Form.Control type="text" placeholder="Subject" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
@@ -59,6 +62,7 @@ class Contact extends Component {
                     rows="3"
                     type="email"
                     placeholder="Message"
+                    name="message"
                   />
                 </Form.Group>
 

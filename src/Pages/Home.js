@@ -35,22 +35,22 @@ class Home extends Component {
 
               <div className="row foto">
                 <div className="col-md-3 col-sm-12">
-                  <a href="https://www.facebook.com/">
+                  <a href="https://www.facebook.com/indra.kawasansiahaan/" target="blank">
                     <img className="spasi" src={facebook} alt="" />
                   </a>
                 </div>
                 <div className="col-md-3 col-sm-12">
-                  <a href="https://www.linkedin.com/">
+                  <a href="https://www.linkedin.com/in/siahaan-kawasan/" target="blank">
                     <img className="spasi" src={link} alt="" />
                   </a>
                 </div>
                 <div className="col-md-3 col-sm-12">
-                  <a href="https://www.whatsapp.com/">
+                  <a href="https://wa.me/886975642739" target="blank">
                     <img className="spasi" src={wa} alt="" />
                   </a>
                 </div>
                 <div className="col-md-3 col-sm-12">
-                  <a href="https://www.instagram.com/">
+                  <a href="https://www.instagram.com/kawasansiahaan/" target="blank">
                     <img className="spasi" src={ig} alt="" />
                   </a>
                 </div>
