@@ -53,10 +53,6 @@ class Contact extends Component {
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Control type="text" placeholder="Subject" />
-                </Form.Group>
-
-                <Form.Group controlId="formBasicEmail">
                   <Form.Control
                     as="textarea"
                     rows="3"
